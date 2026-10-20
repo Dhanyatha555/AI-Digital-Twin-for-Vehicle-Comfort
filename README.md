@@ -1,29 +1,6 @@
 # Physics-Guided Suspension Digital Twin with Residual Learning
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Standards: ISO 8608 | ISO 2631-1](https://img.shields.io/badge/Standards-ISO%208608%20%7C%20ISO%202631--1-brightgreen.svg)](#standards-compliance)
-[![Tests: 16 Passed](https://img.shields.io/badge/Tests-16%20Passed-success.svg)](#automated-testing)
-
 An industrial-grade, physics-guided automotive digital twin that combines **2-DOF quarter-car multi-body dynamics**, **sensor simulation & dropout imputation**, **Kalman filter state estimation & sensor fusion**, **physics-informed residual machine learning**, and **ISO 2631-1 whole-body vibration ride-comfort scoring**.
-
----
-
-## Table of Contents
-- [1. Executive Summary](#1-executive-summary)
-- [2. System Architecture](#2-system-architecture)
-- [3. Mathematical Formulations & Governing Equations](#3-mathematical-formulations--governing-equations)
-  - [3.1 Quarter-Car 2-DOF Dynamics](#31-quarter-car-2-dof-dynamics)
-  - [3.2 Controlled Parameter Mismatch & Nonlinear Damper Reality](#32-controlled-parameter-mismatch--nonlinear-damper-reality)
-  - [3.3 ISO 8608 Road Profile Roughness & Obstacles](#33-iso-8608-road-profile-roughness--obstacles)
-  - [3.4 Automotive Sensor Simulation & Kalman Filter Fusion](#34-automotive-sensor-simulation--kalman-filter-fusion)
-  - [3.5 Physics-Guided Residual Learning](#35-physics-guided-residual-learning)
-  - [3.6 ISO 2631-1 Frequency Weighting & Comfort Indicators](#36-iso-2631-1-frequency-weighting--comfort-indicators)
-- [4. Empirical Benchmark & Generalization Results](#4-empirical-benchmark--generalization-results)
-- [5. Repository Structure](#5-repository-structure)
-- [6. Setup & Execution Instructions](#6-setup--execution-instructions)
-- [7. Automated Testing](#7-automated-testing)
-- [8. Limitations & Engineering Boundaries](#8-limitations--engineering-boundaries)
 
 ---
 
