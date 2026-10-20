@@ -1,0 +1,6 @@
+Scenario,Road Class,Obstacle,Speed (km/h),Baseline Accel RMSE,Hybrid Accel RMSE,Accel RMSE Reduction (%),Baseline Travel RMSE (mm),Hybrid Travel RMSE (mm),Travel RMSE Reduction (%),ISO Weighted RMS a_w (m/s^2),VDV (m/s^1.75),Comfort Class
+Training Scenario: Class B + Bump,ISO Class B (Good / Rural Road),Speed Bump (Haversine),45.0,0.6747,0.1843,72.7,6.44,0.95,85.3,1.6255,4.881,Very Uncomfortable (1.25 - 2.5 m/s^2)
+Held-out 1: Class C Local Road,ISO Class C (Average / Urban Road),None,60.0,0.6425,0.5135,20.1,6.21,3.35,46.1,1.7886,3.531,Very Uncomfortable (1.25 - 2.5 m/s^2)
+Held-out 2: Severe Class D Track,ISO Class D (Rough / Deteriorated Road),None,35.0,0.8387,0.6685,20.3,9.09,4.46,51.0,2.6222,5.182,Extremely Uncomfortable (> 2.0 m/s^2)
+Held-out 3: Washboard Corrugation,ISO Class B (Good / Rural Road),Washboard (Corrugated),50.0,0.5657,0.4463,21.1,5.87,5.18,11.8,1.482,3.326,Uncomfortable (0.8 - 1.6 m/s^2)
+Held-out 4: Bump + Pothole Sequence,ISO Class C (Average / Urban Road),Bump + Pothole Sequence,70.0,0.9262,0.684,26.2,9.06,6.09,32.8,2.9859,9.343,Extremely Uncomfortable (> 2.0 m/s^2)
